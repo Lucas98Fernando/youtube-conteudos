@@ -1,4 +1,4 @@
-package com.example.best_pratices
+package com.example.random_user
 
 import io.flutter.embedding.android.FlutterActivity
 

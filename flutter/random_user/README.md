@@ -1,4 +1,4 @@
-# best_pratices
+# random_user
 
 A new Flutter project.
 

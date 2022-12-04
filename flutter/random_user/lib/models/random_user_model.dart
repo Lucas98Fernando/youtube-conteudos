@@ -160,7 +160,6 @@ class Location {
     required this.city,
     required this.state,
     required this.country,
-    required this.postcode,
     required this.coordinates,
     required this.timezone,
   });
@@ -169,7 +168,6 @@ class Location {
   String city;
   String state;
   String country;
-  int postcode;
   Coordinates coordinates;
   Timezone timezone;
 
@@ -178,7 +176,6 @@ class Location {
         city: json["city"],
         state: json["state"],
         country: json["country"],
-        postcode: json["postcode"],
         coordinates: Coordinates.fromMap(json["coordinates"]),
         timezone: Timezone.fromMap(json["timezone"]),
       );
@@ -188,7 +185,6 @@ class Location {
         "city": city,
         "state": state,
         "country": country,
-        "postcode": postcode,
         "coordinates": coordinates.toMap(),
         "timezone": timezone.toMap(),
       };

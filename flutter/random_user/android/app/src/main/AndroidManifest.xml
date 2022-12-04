@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.best_pratices">
+    package="com.example.random_user">
    <application
-        android:label="best_pratices"
+        android:label="random_user"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
